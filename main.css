@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+}
+.container{
+  border: solid 4px black;
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  background-color: #FA9993;
+}
+
+.inputBlock{
+  border: solid 2px black;
+}
+
+.answer{
+  font-size: 2em;
+}
+
+#answer{
+  font-weight: bolder;
+}
