@@ -1,0 +1,67 @@
+body{
+  font-size: 3em;
+  text-align: center;
+}
+
+.container{
+  float:left;
+}
+
+.col-md-1{
+  background-color: #68B25B;
+  color: white;
+  height: 90px;
+  border: solid 2px #8EC583;
+  padding-top: 2%;
+}
+
+.col-md-3{
+  background-color: #68B25B;
+  color: white;
+  height: 90px;
+  border: solid 2px #8EC583;
+  padding-top: 2%;
+  text-align: right;
+}
+
+.operator{
+  background-color: #83C178;
+  color: #333;
+}
+
+.col-md-1:hover{
+  background-color: #83C178;
+}
+
+.operator:hover{
+  color: white;
+  background-color: #83C178;
+}
+
+.clear{
+  border-width: 0px 2px 2px 0px;
+}
+
+.displayArea{
+  border-width: 0px 0px 2px 2px;
+}
+
+.seven, .four, .one{
+  border-left-width:0px;
+}
+
+.zero{
+  border-width: 2px 2px 0px 0px;
+}
+
+.divide, .multi, .sub {
+  border-right-width: 0px;
+}
+
+.plus{
+  border-width: 2px 0px 0px 2px;
+}
+
+.point, .calculate{
+  border-bottom-width: 0px;
+}

@@ -8,6 +8,7 @@ body{
   margin: auto;
   display: block;
   background-color: #FA9993;
+  margin-bottom: 25px;
 }
 
 .inputBlock{
@@ -20,4 +21,17 @@ body{
 
 #answer{
   font-weight: bolder;
+}
+
+a{
+  font-size: 1.5em;
+  color: white;
+  border: solid black 2px;
+  padding: 10px;
+  background-color: #68B25B;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #83C178;
 }
